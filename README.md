@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/shamizen/faq-accordion-card)
-- Live Site URL: [github-pages]https://shamizen.github.io/faq-accordion-card/
+- Live Site URL: [github-pages](https://shamizen.github.io/faq-accordion-card/)
 
 ## My process
 
