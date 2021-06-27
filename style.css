@@ -84,6 +84,11 @@ body {
   padding: 1rem 0;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .question-container {
   width: 100%;
   display: flex;

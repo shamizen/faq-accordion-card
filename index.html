@@ -7,7 +7,6 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
     <title>FAQ Accordion Card</title>
   </head>
   <body>
@@ -18,50 +17,49 @@
       </div>
       <div class="content-container">
         <h1 class="heading">FAQ</h1>
-        <div class="faq-container">
-          <div class="faq">
+        <ul class="faq-container">
+          <li class="faq">
             <div class="question-container" id="1" onclick="displayAnswer(this.id)">
-              <div class="question">How many team members can I invite?</div>
+              <h2 class="question">How many team members can I invite?</h2>
               <div class="question-icon"><img src="./images/icon-arrow-down.svg" alt="Arrow icon" /></div>
             </div>
-            <div class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</div>
-          </div>
+            <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+          </li>
 
-          <div class="faq">
+          <li class="faq display-answer">
             <div class="question-container" id="2" onclick="displayAnswer(this.id)">
-              <div class="question">What is the maximum file upload size?</div>
+              <h2 class="question">What is the maximum file upload size?</h2>
               <div class="question-icon"><img src="./images/icon-arrow-down.svg" alt="Arrow icon" /></div>
             </div>
-            <div class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</div>
-          </div>
+            <p class="answer">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+          </li>
 
-          <div class="faq">
+          <li class="faq">
             <div class="question-container" id="3" onclick="displayAnswer(this.id)">
-              <div class="question">How do I reset my password?</div>
+              <h2 class="question">How do I reset my password?</h2>
               <div class="question-icon"><img src="./images/icon-arrow-down.svg" alt="Arrow icon" /></div>
             </div>
-            <div class="answer">
-              Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.
-            </div>
-          </div>
+            <p class="answer">Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.</p>
+          </li>
 
-          <div class="faq">
+          <li class="faq">
             <div class="question-container" id="4" onclick="displayAnswer(this.id)">
-              <div class="question">Can I cancel my subscription?</div>
+              <h2 class="question">Can I cancel my subscription?</h2>
               <div class="question-icon"><img src="./images/icon-arrow-down.svg" alt="Arrow icon" /></div>
             </div>
-            <div class="answer">Yes! Send us a message and we’ll process your request no questions asked.</div>
-          </div>
+            <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+          </li>
 
-          <div class="faq">
+          <li class="faq">
             <div class="question-container" id="5" onclick="displayAnswer(this.id)">
-              <div class="question">Do you provide additional support?</div>
+              <h2 class="question">Do you provide additional support?</h2>
               <div class="question-icon"><img src="./images/icon-arrow-down.svg" alt="Arrow icon" /></div>
             </div>
-            <div class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</div>
-          </div>
-        </div>
+            <p class="answer">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+          </li>
+        </ul>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
