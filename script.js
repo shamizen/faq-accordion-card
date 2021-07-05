@@ -1,5 +1,5 @@
-function displayAnswer(id) {
-  let element = document.getElementById(id);
+function displayAnswer() {
+  let element = this;
   let parent_element = element.parentElement;
   if (parent_element.className === 'faq') {
     setAllClassName(parent_element, 'faq'); //set all class name to 'faq' | comment this line if you want to show more than 1 answer
@@ -13,4 +13,15 @@ function setAllClassName(element, className) {
   for (let index = 0; index < element.parentElement.childElementCount; index++) {
     element.parentElement.children[index].className = className;
   }
+}
+
+let elements = document.getElementsByClassName('question-container');
+let elementArray = [...elements];
+
+elementArray.forEach((element) => {
+  element.addEventListener('click', displayAnswer, false);
+});
+
+function sayHello() {
+  console.log('Hello');
 }
